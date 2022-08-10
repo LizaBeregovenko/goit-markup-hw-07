@@ -15,40 +15,39 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body" data-page>
     <!--Верхня лінія-->
-    <header class="site-nav" data-header>
-      <div class="container site-nav__container">
-        <nav class="site-nav__navigation">
-          <a class="site-nav__logo" href="index.html">
-            <span class="site-nav__accent_logo">Web</span>Studio
-          </a>
-          <ul class="site-nav__list">
+    <header class="header header--no-transparency" data-header>
+      <div class="container header__container">
+        <nav class="nav">
+          <a class="logo" href="index.html"> <span class="logo__accent">Web</span>Studio </a>
+          <ul class="nav__list">
             <li>
-              <a class="site-nav__link site-nav__link--current" href="./index.html">Студія</a>
+              <a class="nav__link nav__link--current" href="./index.html">Студія</a>
             </li>
-            <li><a class="site-nav__link" href="./portfolio.html">Портфоліо</a></li>
-            <li><a class="site-nav__link" href="">Контакти</a></li>
+            <li><a class="nav__link" href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="nav__link" href="">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="site-nav__list-contact">
-          <li class="site-nav__mail">
-            <a class="site-nav__link-mail" href="mailto:info@devstudio.com">
-              <svg class="site-nav__icon-mail" width="16px" height="12px">
+        <ul class="nav__list-contact">
+          <li class="nav__item-mail">
+            <a class="nav__link-mail" href="mailto:info@devstudio.com">
+              <svg class="nav__icon-mail" width="16px" height="12px">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="site-nav__tel">
-            <a class="site-nav__link-tel" href="tel:+380961111111">
-              <svg class="site-nav__icon-tel" width="10px" height="16px">
+          <li class="nav__item-tel">
+            <a class="nav__link-tel" href="tel:+380961111111">
+              <svg class="nav__icon-tel" width="10px" height="16px">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -501,26 +500,30 @@
     </main>
 
     <!--Футер-->
-    <footer class="section-footer">
+    <footer class="section__footer">
       <div class="container footer">
         <div class="address">
-          <a class="section-logo" href="index.html"><span class="accent_logo">Web</span>Studio</a>
-          <address class="section-address">
-            <ul class="section-list">
-              <li class="section-item">
+          <a class="logo section__logo" href="index.html"
+            ><span class="logo__accent">Web</span>Studio</a
+          >
+          <address class="section__address">
+            <ul class="section__list">
+              <li class="section__item">
                 <a
-                  class="section-link-address"
+                  class="section__link-address"
                   href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265139,30.5383131,20z/data=!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
                   target="_blank"
                   rel="noreferrer noopener"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="section-item">
-                <a class="section-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <li class="section__item">
+                <a class="section__link-mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="section-item">
-                <a class="section-link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="section__item">
+                <a class="section__link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -583,13 +586,16 @@
           </ul>
         </div>
         <div class="subscribe">
-          <p class="subscribe-text">Підпишіться на розсилку</p>
-          <form class="form-footer" name="footer-form">
-            <input class="form-email" name="user-mail" type="email" placeholder="E-mail" />
-            <button class="form-btn animate__animated animate__pulse animate__slower" type="submit">
+          <p class="subscribe__text">Підпишіться на розсилку</p>
+          <form class="form" name="footer-form">
+            <input class="form__email" name="user-mail" type="email" placeholder="E-mail" />
+            <button
+              class="form__btn animate__animated animate__pulse animate__slower"
+              type="submit"
+            >
               Підписатися
-              <svg class="form-btn-icon" width="24" height="24">
-                <use class="btn-icon" href="./images/icons.svg#icon-icon-send"></use>
+              <svg class="form__btn-icon" width="24" height="24">
+                <use class="btn__icon" href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
           </form>
