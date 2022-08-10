@@ -755,7 +755,7 @@ p {
 }  */
 
 /* Модальне вікно */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -815,11 +815,11 @@ p {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
+} */
 
 /* форми в модальному вікні та заголовок*/
 
-.modal-form {
+/* .modal-form {
   position: absolute;
 }
 .modal-form-title {
@@ -932,11 +932,11 @@ p {
   justify-content: center;
   align-items: center;
   gap: 8px;
-}
+} */
 
 /* .modal-form-checkbox {
 } */
-.form-checkbox-icon {
+/* .form-checkbox-icon {
   width: 16px;
   height: 15px;
   border: 2px solid var(--color-title2);
@@ -946,11 +946,11 @@ p {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0s;
-}
+} */
 
 /* .form-checkbox-icon-check {
 } */
-.modal-form-checkbox:checked + .form-checkbox-icon {
+/* .modal-form-checkbox:checked + .form-checkbox-icon {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
 }
@@ -963,9 +963,9 @@ p {
   color: var(--color-text);
 
   user-select: none;
-}
+} */
 
-.modal-form-link {
+/* .modal-form-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1003,4 +1003,4 @@ p {
 .modal-form-btn:focus {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
